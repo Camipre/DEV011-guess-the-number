@@ -139,7 +139,7 @@ Define los atributos y métodos que todas las _clases_ de jugadoras deben compar
 - `getName()`: Devuelve el nombre de la jugadora.
 - `getGuesses()`: Devuelve el historial de suposiciones de la jugadora.
 
-#### `HumanPlayer` y `ComputerPlayer` (heredan de `Player`)
+#### `GuessTheNumberGame.HumanPlayer` y `ComputerPlayer` (heredan de `Player`)
 
 **Propósito:**
 Representa a las jugadoras _Humana_ y _Computadora_, respectivamente.
@@ -150,9 +150,9 @@ Representa a las jugadoras _Humana_ y _Computadora_, respectivamente.
 
 **Relaciones:**
 
-- La clase `GuessTheNumberGame` interactúa con las clases `HumanPlayer`
+- La clase `GuessTheNumberGame` interactúa con las clases `GuessTheNumberGame.HumanPlayer`
   y `ComputerPlayer` para gestionar el juego.
-- Tanto la clase `HumanPlayer` como `Computer Player` son subclases de `Player`,
+- Tanto la clase `GuessTheNumberGame.HumanPlayer` como `Computer Player` son subclases de `Player`,
   lo que implica que heredan todas sus propiedades y métodos,
   pero también tienen algunas características adicionales propias.
 
